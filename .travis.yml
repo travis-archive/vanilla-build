@@ -1,0 +1,5 @@
+dist: jammy
+os: linux
+language: generic 
+script: curl 'https://api.rollbar.com/api/1/status/ping'
+install: skip
